@@ -156,6 +156,10 @@
   .add__to__cart__container {
     flex-direction: column;
   }
+
+  .cart__quantity.active {
+    right: 3rem;
+  }
 }
 
 @media (max-width: 414px) {
@@ -175,7 +179,10 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 322px) {
+  .header__left__container {
+    gap: 1rem;
+  }
   .main__right__container {
     margin-top: -16rem;
   }
@@ -183,5 +190,15 @@
   .carousel-control-prev,
   .carousel-control-next {
     top: 8rem !important;
+  }
+
+  .cart__items.active {
+    width: 250px;
+  }
+}
+
+@media (max-width: 280px) {
+  .cart__items.active {
+    right: 1rem;
   }
 }

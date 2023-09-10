@@ -19,6 +19,7 @@ body {
 }
 
 header {
+  position: relative;
   padding: 2rem 7rem;
   border-bottom: 1px solid var(--grayish-blue);
 }
